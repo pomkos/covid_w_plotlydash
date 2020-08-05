@@ -119,7 +119,7 @@ def update_ctry_pos_case(ctry_value):
         temp_df = df_copy[df_copy['location']==c]
         trace.append(go.Scatter(
             x = temp_df.index,
-            y = temp_df['new_cases'],
+            y = temp_df['new_cases_per_million'],
             mode='lines',
             opacity=0.7,
             name=c,
@@ -137,7 +137,7 @@ def update_ctry_pos_case(ctry_value):
             margin={'b': 15},
             hovermode='x',
             autosize=True,
-            title={'text': 'World Daily Cases', 'font': {'color': 'white'}, 'x': 0.5},
+            title={'text': 'World Daily Cases per Million', 'font': {'color': 'white'}, 'x': 0.5},
             xaxis={
                 'range': [dt.date(2020,2,1), df_copy.index.max()],
                 'showgrid':False
