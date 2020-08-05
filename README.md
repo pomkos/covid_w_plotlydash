@@ -26,7 +26,7 @@ I always wanted to learn how to create dashboards, this is my first venture into
 # Sources
 
 * [World Data](https://covid.ourworldindata.org/data/)
-* [US States](https://covidtracking.com/api/v1/states/)
+* [US States Data](https://covidtracking.com/api/v1/states/)
 * [Plotly Dash Tutorial](https://www.statworx.com/de/blog/how-to-build-a-dashboard-in-python-plotly-dash-step-by-step-tutorial/)
 * [Dash Documentation](https://dash.plotly.com/)
 * [Managing Conda Environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
