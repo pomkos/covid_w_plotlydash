@@ -21,7 +21,7 @@ I always wanted to learn how to create dashboards, this is my first venture into
     ```
 # Demo
 
-![[preview.png]]
+![preview.png](https://raw.githubusercontent.com/pomkos/covid_dash/master/preview.png)
 
 # Sources
 
