@@ -14,6 +14,7 @@ I always wanted to learn how to create dashboards, this is my first venture into
 4. Test the dashboard on port `8051`: `python covid_dash.py`
 5. Deploy the dashboard on port `8050`: 
     ```bash
+    # Or just run the update_db.sh script.
     conda activate MY_ENV
     pkill gunicorn
     gunicorn -w 4 -b 0.0.0.0:8050 covid_dash:server &
