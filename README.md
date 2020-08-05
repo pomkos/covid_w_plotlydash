@@ -3,8 +3,8 @@
 I always wanted to learn how to create dashboards, this is my first venture into that world using Plotly-Dash. Hosting was done via Flask and Gunicorn, in Ubuntu 20.04.
 
 # How to
+Explore the data using `covid_explore.ipynb`
 
-1. Explore the data using `covid_explore.ipynb`
 1. Install conda:
     ```bash
     wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
